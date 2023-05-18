@@ -1,0 +1,12 @@
+.anchor{
+    margin: 0.3rem;
+}
+.anchorc{
+    margin: 1rem;
+    color: #606060;
+}
+
+.anchors{
+    overflow: hidden;
+    white-space: nowrap;
+}

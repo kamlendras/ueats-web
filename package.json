@@ -4,15 +4,31 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "s": "next dev -H 192.168.43.184",
+    "t": "next dev -H 192.168.43.5",
+    "build": "./build.sh",
+    "postbuild": "node ./scripts/Elasticsearch.mjs",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
+    "@elastic/react-search-ui": "^1.20.0",
+    "@elastic/search-ui-elasticsearch-connector": "^1.20.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.3",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.1",
-    "next": "13.4.1",
+    "next": "^13.4.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sharp": "^0.32.1",
+    "swiper": "^9.2.4"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^13.4.1",
+    "cross-env": "^7.0.3"
   }
 }

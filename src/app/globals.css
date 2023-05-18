@@ -1,14 +1,15 @@
 :root {
   --max-width: 1100px;
+  color-scheme: light;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
+  /* --foreground-rgb: 0, 0, 0; */
+  /* --background-start-rgb: 214, 219, 220; */
+  /* --background-end-rgb: 255, 255, 255; */
+background-color: white  !important;
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
     #16abff33 0deg,
@@ -42,15 +43,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    /* --foreground-rgb: 255, 255, 255; */
+    /* --background-start-rgb: 0, 0, 0; */
+    /* --background-end-rgb: 0, 0, 0; */
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(
       to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
+      /* rgba(1, 65, 255, 0), */
+      /* rgba(1, 65, 255, 0), */
       rgba(1, 65, 255, 0.3)
     );
 
@@ -105,3 +106,213 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+.swiper-button-next {
+  background-image: url(/rightarrow.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.swiper-button-next::after {
+  display: none;
+}
+.swiper-button-prev {
+  background-image: url(/leftarrow.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-disabled{
+ opacity: 0 !important;
+}
+.MuiAppBar-root{
+  background-color: #ffffff !important;
+}
+.MuiIconButton-root{
+ 
+  color: white !important;
+}
+.MuiSwitch-root{
+  color: #06c167 !important;
+  background-color: #06c167 !important;
+}
+.MuiSwitch-colorPrimary{
+  color: #06c167 !important ;
+}
+.MuiSwitch-colorSecondary{
+  color: #06c167 !important;
+}
+#color{
+  color: #000000;
+}
+#colorw{
+  color: #fff;
+}
+
+
+
+.Mnavbar{
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #06c167;
+  color: #06c167;
+}
+.MuiRadio-root{
+  color: #000000 !important;
+}
+.Mui-checked{
+  color: #000000 !important;
+}
+.MuiRadio-colorPrimary{
+  color: #000000 !important;
+}
+.MuiRadio-colorSecondary{
+  color: #000000 !important;
+}
+.MuiRadioGroup-root{
+  color: #000000;
+}
+
+#search {
+  width: 100%;
+  background-color: #EEEEEE;
+  color: black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+ 
+
+}
+#search + img {
+
+
+  position: absolute;
+  
+  padding: 10px;
+
+  min-width: 50px;
+  text-align: center;
+ 
+ 
+}
+#search + img {
+  visibility: hidden;
+
+}
+#search:placeholder-shown + img {
+  visibility: visible;
+}
+/* light backdrops only */
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  display: inline-block;
+ 
+
+  width: 12px;
+  height: 12px;
+  margin-left: 3rem;
+  padding: 0.1rem;
+  background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 43%,
+      #000000 45%,
+      #000000 55%,
+      rgba(0, 0, 0, 0) 57%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 43%,
+      #000000 45%,
+      #000000 55%,
+      transparent 57%,
+      transparent 100%
+    );
+    
+}
+
+/* dark backdrops only */
+input[type="search"][value="dark"]::-webkit-search-cancel-button {
+  background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 43%,
+      #fff 45%,
+      #fff 55%,
+      rgba(0, 0, 0, 0) 57%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 43%,
+      #fff 45%,
+      #fff 55%,
+      transparent 57%,
+      transparent 100%
+    );
+}
+
+#black{
+  color: #000000;
+}
+	.MuiButton-root{
+    color: #ffffff;
+    background-color: #000000;
+  }
+  .MuiButton-root:hover{
+    background-color: #4d4848;
+  }
+
+  .MuiFilledInput-colorSecondary{
+    color: #000000 !important;
+   
+  }
+  .MuiButton-contained{
+    text-transform: none;
+  }
+
+  /* .MuiBottomNavigation-root{
+    color: #000000 !important;
+    background-color: #000000 !important;
+  } */
+  /* @media screen and (max-width: 768px){
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+  } */
+  /* ::-webkit-scrollbar {
+display: none;
+ 
+  } */
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+    }
+    
+  /* ::-webkit-scrollbar-track {
+    background: (189, 231, 255);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #1e88e5;
+    border-radius: 1rem;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 110, 255);
+  } */

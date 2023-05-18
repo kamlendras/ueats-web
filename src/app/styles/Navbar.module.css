@@ -1,0 +1,26 @@
+
+
+.location{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: inline;
+    /* width: 100%; */
+  
+}
+.enddrawer{
+    font-size: 1rem;
+    color: #606060;
+    /* text-align: ; */
+    cursor: pointer;
+    margin: 1rem;
+    
+    
+    
+}
+
+
+
+.color{
+    color: black;
+    background-color: black;
+}
