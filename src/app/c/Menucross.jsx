@@ -16,12 +16,6 @@ import Image from 'next/image';
 const Menucross = (props) => {
     return (  
         <div style={{color:'black'}}>
-         <ListItem button>
-            <ListItemIcon>
-              <Image src="/favoriteblue.svg" width={26} height={26} alt="Home" />
-            </ListItemIcon>
-            <ListItemText>Favorites</ListItemText>
-          </ListItem>
           <ListItem button>
             <ListItemIcon>
               <Image
@@ -32,6 +26,12 @@ const Menucross = (props) => {
               />
             </ListItemIcon>
             <ListItemText>Track Real-Time Order</ListItemText>
+          </ListItem>
+         <ListItem button>
+            <ListItemIcon>
+              <Image src="/favoriteblue.svg" width={26} height={26} alt="Home" />
+            </ListItemIcon>
+            <ListItemText>Favorites</ListItemText>
           </ListItem>
           <ListItem button>
             <ListItemIcon>

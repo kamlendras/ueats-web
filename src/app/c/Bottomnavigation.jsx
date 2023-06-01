@@ -7,7 +7,7 @@ import RestoreIcon from "@mui/icons-material/Restore";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import MenuIcon from '@mui/icons-material/Menu';
-import ManageSearchRoundedIcon from '@mui/icons-material/ManageSearchRounded';
+import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import ShoppingCartRoundedIcon from '@mui/icons-material/ShoppingCartRounded';
 import HealthAndSafetyRoundedIcon from '@mui/icons-material/HealthAndSafetyRounded';
@@ -47,10 +47,10 @@ export default function LabelBottomNavigation() {
          
         <BottomNavigationAction 
        
-          label="Browse"
+          label="Search"
           value="Search"
           onClick={() => router.push('/search')}
-          icon={ <ManageSearchRoundedIcon/>}
+          icon={ <SearchRoundedIcon/>}
       />
       
       <BottomNavigationAction 
