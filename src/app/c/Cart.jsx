@@ -4,8 +4,7 @@ import Image from 'next/image';
 import Button from '@mui/material/Button';
 import Drawer from '@mui/material/Drawer';
 import * as React from 'react';
-import { useState, useCallback, useEffect } from "react";
-import Box from '@mui/material/Box';
+import { useState } from "react";
 import CartCross from './CartCross';
 const Cart = () => {
   const [open, setOpen] = useState(false);
@@ -16,13 +15,7 @@ const Cart = () => {
   
 
     <Button fullWidth  autoFocus variant="contained" style={{boderRadius:'10rem'}}  onClick={() => setOpen(true)}>
-    <Image
-      src="/Baskets.svg"
-      width={26}
-      height={26}
-      alt="Cart"
-      style={{marginRight:'1rem'}}
-    />    O carts
+    O carts
           </Button>
          
    

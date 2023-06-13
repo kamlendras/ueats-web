@@ -19,7 +19,7 @@ export default function SwiperApp() {
     <>
       <Toolbar />
       <div className={styles.s1}>
-        <h1>Discover</h1>
+        {/* <h1>Discover</h1> */}
         <Swiper
           breakpoints={{
             640: {

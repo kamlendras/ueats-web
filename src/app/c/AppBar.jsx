@@ -106,6 +106,7 @@ const AppBar1 = (props) => {
            <>
            <Search/>
            <Location/>
+           <Mavatar />
              <Dialog/>
               <Cart/> 
              
