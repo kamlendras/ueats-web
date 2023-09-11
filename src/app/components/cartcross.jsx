@@ -2,7 +2,7 @@ import React from "react";
 import Lottie from "react-lottie";
 import animationData from "./cart3.json";
 
-function CartCross() {
+function Cartcross() {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -20,4 +20,4 @@ function CartCross() {
   </>;
 }
 
-export default CartCross;
+export default Cartcross;

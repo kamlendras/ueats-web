@@ -9,21 +9,21 @@ import { Bebas_Neue } from "next/font/google";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import ListItemButton from "@mui/material/ListItemButton";
-import Avatar from "./Cavatar";
-import Notifications from "./Cnotifications";
+import Avatar from "./cavatar";
+import Notifications from "./cnotifications";
 import TextField from "@mui/material/TextField";
 import InputAdornment from "@mui/material/InputAdornment";
-import styles from "../styles/Navbar.module.css";
+import styles from "../styles/navbar.module.css";
 import Link from "@mui/material/Link";
-import Menu from "./Menucross";
-import Cart from "./Cart";
-import Mavatar from "./Avatar";
+import Menu from "./menucross";
+import Cart from "./cart";
+import Mavatar from "./avatar";
 import Grid from "@mui/material/Grid";
-import Mnotifications from "./Notifications";
+import Mnotifications from "./notifications";
 import CssBaseline from "@mui/material/CssBaseline";
-import Dialog from "./Language/Dialog";
-import Search from "./Search"
-import Location from "./Location"
+import Dialog from "./language/dialog";
+import Search from "./search"
+import Location from "./location"
 const bebas_Neue = Bebas_Neue({
   weight: "400",
   subsets: ["latin"],

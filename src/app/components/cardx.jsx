@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import Cardcross from "./Cardcross";
+import Cardcross from "./cardcross";
 import { useRef, useState } from "react";
 import { experimentalStyled as styled } from "@mui/material/styles";
 import styles from "../styles/cardcross.module.css";

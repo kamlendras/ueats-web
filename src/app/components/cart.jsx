@@ -1,11 +1,11 @@
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import styles from "../styles/Cart.module.css"
+import styles from "../styles/cart.module.css"
 import Image from 'next/image';
 import Button from '@mui/material/Button';
 import Drawer from '@mui/material/Drawer';
 import * as React from 'react';
 import { useState } from "react";
-import CartCross from './CartCross';
+import Cartcross from './cartcross';
 const Cart = () => {
   const [open, setOpen] = useState(false);
   return ( 
@@ -23,7 +23,7 @@ const Cart = () => {
           <Drawer open={open} anchor={"right"} onClose={() => setOpen(false)}>
         <div style={{ width: "20rem" }}>
         
-     <CartCross/>
+     <Cartcross/>
         </div>
       </Drawer>
           </>

@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
 import Avatar from "@mui/material/Avatar";
-import Avatarcross from './Avatarcross'
+import Avatarcross from './avatarcross'
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });

@@ -5,7 +5,7 @@ import Tooltip from "@mui/material/Tooltip";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import styles from "../styles/Swiper.module.css";
+import styles from "../styles/swiper.module.css";
 import { Pagination, Navigation, Autoplay } from "swiper";
 import Image from "next/image";
 import Toolbar from "@mui/material/Toolbar";

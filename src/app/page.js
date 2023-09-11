@@ -1,10 +1,9 @@
-
 import React, { useContext } from "react";
 import Image from 'next/image'
 import styles from './page.module.css'
-import Cardx from './c/Cardx'
+import Cardx from './components/cardx'
 import {  Suspense, lazy } from 'react';
-import Loading from './c/Loading'
+import Loading from './components/loading'
 // const Swiper = React.lazy(() => {
 //   return new Promise(resolve => setTimeout(resolve, 10000)).then(
 //     () => import("./c/Swiper")

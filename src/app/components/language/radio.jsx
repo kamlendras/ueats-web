@@ -4,12 +4,10 @@ import { styled } from '@mui/material/styles';
 import RadioGroup, { useRadioGroup } from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Radio from '@mui/material/Radio';
-import Image from "next/image";
 import Grid from '@mui/material/Grid';
 const StyledFormControlLabel = styled((props) => <FormControlLabel {...props} />)(
   ({ theme, checked }) => ({
     '.MuiFormControlLabel-label': checked && {
-      // color: theme.palette.primary.main,
       color: '#000000',
     },
   }),

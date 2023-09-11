@@ -19,7 +19,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import AddIcon from '@mui/icons-material/Add';
 import Typography from '@mui/material/Typography';
 import { blue } from '@mui/material/colors';
-const emails = ['username@gmail.com', 'user02@gmail.com'];
+const emails = ['ksinghofficial@proton.me', 'streetsfoods'];
 
 function SimpleDialog(props) {
   const { onClose, selectedValue, open } = props;

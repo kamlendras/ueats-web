@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter, Roboto } from 'next/font/google'
-import AppBar from './c/AppBar'
-import Bottomnavigation from './c/Bottomnavigation'
+import Appbar from './components/appBar'
+import Bottomnavigation from './components/bottomnavigation'
 const roboto = Roboto({ subsets: ['latin'] , weight: ['400']})
 
 export const metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
    
       <body className={roboto.className}>{children}
-      <AppBar/>
+      <Appbar/>
       <Bottomnavigation/>
       </body>
     </html>

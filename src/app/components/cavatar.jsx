@@ -11,7 +11,7 @@ import Tooltip from "@mui/material/Tooltip";
 import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
 import Grid from "@mui/material/Unstable_Grid2";
 import Link2 from "@mui/material/Link";
-import Avatar1 from './Avatarcross'
+import Avatar1 from './avatarcross'
 export default function AccountMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);

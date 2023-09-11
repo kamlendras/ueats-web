@@ -1,4 +1,4 @@
-import Menucross from '../c/Menucross'
+import Menucross from '../components/menucross'
 const Page = () => {
     return ( 
         <>

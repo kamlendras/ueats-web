@@ -1,7 +1,7 @@
 import * as React from "react";
 import Image from 'next/image';
 import IconButton from "@mui/material/IconButton";
-import styles from "../styles/Card.module.css";
+import styles from "../styles/card.module.css";
 import Grid from "@mui/material/Grid";
 import Snackbar from "@mui/material/Snackbar";
 import CloseIcon from "@mui/icons-material/Close";
