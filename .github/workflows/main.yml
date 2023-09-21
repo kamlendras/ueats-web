@@ -1,4 +1,4 @@
- name: Bun WorkFlow
+name: Bun WorkFlow
 
 on:
   push:
