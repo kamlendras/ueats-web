@@ -1,5 +1,4 @@
-
-name: Node.js CI
+ name: Bun WorkFlow
 
 on:
   push:
@@ -11,24 +10,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x]
-
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2
+      - name: Checkout 
+        uses: actions/checkout@v3
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
+      - name: bun setup
+        uses: oven-sh/setup-bun@v1
 
-      - name: Install pnpm 📦
-        run: npm install -g pnpm
-
-      - name: Install and Build 🔧
-        run: pnpm install && pnpm build && pnpm export
+      - name: Bun Install 
+        run:  bun install && bun build-ssg
+ 
+      - name: Bun ssg
+        run:  bun build-ssg
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
@@ -38,4 +31,6 @@ jobs:
           FOLDER: out # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
 
-```
+
+
+
