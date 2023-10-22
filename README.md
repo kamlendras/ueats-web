@@ -16,9 +16,9 @@
 
 # 💧Donate<br/>
 ### Donations can be made at <br/>
-### liberapay.com/ksingh<br/>
-### buymeacoffie.com/ksingh<br/>
-### pateron.com/ksingh<br/>
+### https://liberapay.com/ksingh<br/>
+### https://buymeacoffie.com/ksingh<br/>
+### https://pateron.com/ksingh<br/>
 
 
 
