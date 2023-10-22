@@ -18,7 +18,7 @@
 ### Donations can be made at <br/>
 ### https://liberapay.com/ksingh<br/>
 ### https://buymeacoffee.com/ksingh<br/>
-### https://pateron.com/ksingh<br/>
+### https://patreon.com/ksingh<br/>
 
 
 
