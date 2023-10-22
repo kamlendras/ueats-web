@@ -11,6 +11,6 @@
 
 # Also by using ueats you are not destroying the planet because our official suppliers don't use plastic to ship food items, however as Ueats is decentralized . It is recommended for you to check your own supplier .
 
-🚁 Contribute
+🚁 Contribute<br/>
 Contributions are always welcome, if you want any features, performance improvements please open an issue or make a folk and give a PR.
 
