@@ -15,10 +15,10 @@
 ## Contributions are always welcome, if you want any features, performance improvements please open an issue or make a folk and give a PR.
 
 # 💧Donate<br/>
-## Donations can be made at <br/>
-## liberapay.com/ksingh<br/>
-##buymeacoffie.com/ksingh<br/>
-## pateron.com/ksingh<br/>
+### Donations can be made at <br/>
+### liberapay.com/ksingh<br/>
+### buymeacoffie.com/ksingh<br/>
+### pateron.com/ksingh<br/>
 
 
 
