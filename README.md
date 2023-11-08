@@ -16,9 +16,9 @@
 
 # 🤲Donate<br/>
 ### Donations can be made at <br/>
-### https://liberapay.com/ksingh<br/>
-### https://buymeacoffee.com/ksingh<br/>
-### https://patreon.com/ksingh<br/>
+### https://liberapay.com/kamlendras<br/>
+### https://buymeacoffee.com/kamlendras<br/>
+### https://patreon.com/kamlendras<br/>
 
 
 
