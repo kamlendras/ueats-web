@@ -100,12 +100,12 @@ const Mcard = (props) => {
                   />
                 }
               /></div>
-              <div className={styles.min}>   <p className={styles.p}>{props.mins} MINS</p></div>
           <h1 className={styles.h1}>{props.h1}</h1>
+               
           <p className={styles.p}>{props.p}</p>
 
           <Grid container columnSpacing={7}>
-            <Grid item xs={2}>
+            <Grid item xs={3}>
               <button className={styles.star}>
                 <Image
                   src="./starsharp.svg"
@@ -117,8 +117,10 @@ const Mcard = (props) => {
                 <p>{props.rate}</p>
               </button>
             </Grid>
-
-            <Grid
+            <Grid item xs={4}>
+            <p className={styles.p}>{props.mins} MINS</p>
+            </Grid>
+            {/* <Grid
               item
               xs={5}
               direction="column"
@@ -126,7 +128,7 @@ const Mcard = (props) => {
               justifyContent="center"
             >
            
-            </Grid>
+            </Grid> */}
             <Grid item xs={5}>
               <p className={styles.p}>{props.rs}</p>
             </Grid>
