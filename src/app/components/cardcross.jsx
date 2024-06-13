@@ -78,7 +78,7 @@ const Mcard = (props) => {
     <div className={roboto.className}>
       <div className={styles.card}>
         <Grid container>
-          <Image className={styles.image} src={props.img} alt={props.h1} width={300} height={200} />
+          <img className={styles.image} src={props.img} alt={props.h1} width={300} height={200} />
           <div className={styles.fav}>
           <Checkbox
                 onClick={handleClick1}
