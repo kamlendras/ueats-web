@@ -20,8 +20,8 @@
 ## 2. Installation:
 
 
-<code>$ git clone https://github.com/universal-org/ueats.git</code><br/>
-<code>$ cd ueats<br/></code>
+<code>$ git clone https://github.com/universal-org/ueats.git</code><br>
+<code>$ cd ueats</code><br>
 <code>$ npm install (or yarn install)</code>
 
 ## 3. Configuration:
