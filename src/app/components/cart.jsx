@@ -14,7 +14,11 @@ const Cart = () => {
    <div style={{whiteSpace:'nowrap', overflow:'hidden'}}>
   
 
-    <Button fullWidth  autoFocus variant="contained" style={{boderRadius:'10rem'}}  onClick={() => setOpen(true)}>
+    <Button fullWidth  autoFocus variant="contained"  style={{
+        borderRadius: 10,
+        backgroundColor: "#000000",
+        
+    }}  onClick={() => setOpen(true)}>
     O carts
           </Button>
          

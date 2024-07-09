@@ -9,6 +9,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import Radio from './radio'
+import Typography from '@mui/material/Typography';
 export default function ResponsiveDialog() {
   const [open, setOpen] = React.useState(false);
   const theme = useTheme();
@@ -28,8 +29,8 @@ export default function ResponsiveDialog() {
      
         <IconButton
             onClick={handleClickOpen}
-            size="small"
-            sx={{ ml: 1 }}
+            size="large"
+            sx={{ mr: "1rem" }}
           
           >
             <TranslateIcon  id='black'/>
@@ -53,8 +54,12 @@ export default function ResponsiveDialog() {
         </DialogContent>
         <DialogActions>
          
-          <Button fullWidth onClick={handleClose} autoFocus>
-            SELECT
+        <Button fullWidth  autoFocus variant="contained"  style={{
+        borderRadius: 10,
+        backgroundColor: "#000000",
+        
+    }}  onClick={handleClose}>
+ SELECT
           </Button>
         </DialogActions>
       </Dialog>

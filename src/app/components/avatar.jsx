@@ -28,11 +28,11 @@ export default function FullScreenDialog() {
      
       <IconButton 
             onClick={handleClickOpen}
-            size="small"
+            size="large"
             sx={{ ml: 1 }}
        
           >
-            <Avatar sx={{ width: 32, height: 32 }}>K</Avatar>
+            <Avatar sx={{ width: 50, height: 50 }}>K</Avatar>
           </IconButton>
       <Dialog
         fullScreen

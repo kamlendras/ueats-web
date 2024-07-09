@@ -11,14 +11,17 @@ export default function CustomizedInputBase() {
   return (
     <Paper
       component="form"
-      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
+      elevation={3}
+      square={false}
+      variant="outlined"
+      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 900,borderRadius: 10 }}
     >
         <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
         <SearchIcon id='black'/>
       </IconButton>
       <InputBase
-        sx={{ ml: 1, flex: 1 }}
-        placeholder="Food, groceries, drinks, etc"
+        sx={{ mr: 10, flex: 1 }}
+        placeholder="Food, groceries, drinks, etc."
         inputProps={{ 'aria-label': 'Search STREETS FOODS' }}
       />
   
