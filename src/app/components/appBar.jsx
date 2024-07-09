@@ -7,6 +7,7 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Bebas_Neue } from "next/font/google";
 import Drawer from "@mui/material/Drawer";
+import Image from 'next/image'
 import List from "@mui/material/List";
 import ListItemButton from "@mui/material/ListItemButton";
 import Avatar from "./cavatar";
@@ -87,12 +88,19 @@ const AppBar1 = (props) => {
                 overflow: "hidden",
                 whiteSpace: "nowrap",
                 color: "black",
+                marginTop: "0.4rem",
               }}
               className={bebas_Neue.className}
             >
-              STREETS FOODS
+                <Image
+      src="/ueats.png"
+      width={250}
+      height={68}
+      alt="Picture of the author"
+    />
             </h1>
           </Typography>
+        
        
          
           {isBreakpoint ? (
@@ -119,7 +127,7 @@ const AppBar1 = (props) => {
    
     
       <Drawer open={open} anchor={"left"} onClose={() => setOpen(false)}>
-        <div style={{ width: "20rem" }}>
+        <div style={{ width: "18rem" }}>
         
           <Menu />
         </div>

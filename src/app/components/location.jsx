@@ -46,18 +46,21 @@ export default function ResponsiveDialog() {
   };
 
   return (
-    <div>
+    <div style={{marginLeft:"1rem"}}>
 
           <Paper   onClick={handleClickOpen}
       component="form"
-      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
+      elevation={3}
+      square={false}
+      variant="outlined"
+      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 300,borderRadius: 10 }}
     >
         <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
         <PlaceRoundedIcon  id='black'/>
       </IconButton>
       <InputBase
         sx={{ ml: 1, flex: 1 }}
-        placeholder="Delhi,India"
+        placeholder="Mumbai,India"
         inputProps={{ 'aria-label': 'Search STREETS FOODS' }}
       />
   
@@ -82,14 +85,22 @@ export default function ResponsiveDialog() {
           />
         </FormControl>
         <DialogActions>
-        <Button  fullWidth  onClick={handleClick}
-       autoFocus   variant="contained">Auto Detect</Button>
-      
+        <Button fullWidth  autoFocus variant="contained"  style={{
+        borderRadius: 10,
+        backgroundColor: "#000000",
+        
+    }}  onClick={handleClose}>
+Auto Detect
+          </Button>
       </DialogActions>
         <DialogActions>
        
-          <Button fullWidth onClick={handleClose} autoFocus variant="contained">
-            Done
+        <Button fullWidth  autoFocus variant="contained"  style={{
+        borderRadius: 10,
+        backgroundColor: "#000000",
+        
+    }}  onClick={handleClose}>
+ Done
           </Button>
         </DialogActions>
       </Dialog>
